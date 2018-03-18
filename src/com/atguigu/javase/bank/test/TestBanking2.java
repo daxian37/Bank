@@ -25,13 +25,13 @@ public class TestBanking2 {
             //code
 
             System.out.println("Withdraw 150.00");
-            account.withdrow(150.00);
+            account.withdraw(150.00);
             //code
             System.out.println("Deposit 22.50");
             account.deposit(22.50);
             //code
             System.out.println("Withdraw 47.62");
-            account.withdrow(47.62);
+            account.withdraw(47.62);
             //code
 
 

@@ -19,7 +19,7 @@ public class TestBanking {
 	//code
     System.out.println("Withdraw 150.00");
    	//code
-    account.withdrow(150);
+    account.withdraw(150);
 
     System.out.println("Deposit 22.50");
    
@@ -28,7 +28,7 @@ public class TestBanking {
 
     System.out.println("Withdraw 47.62");
    	//code
-    account.withdrow(47.62);
+    account.withdraw(47.62);
 
     // Print out the final account balance
     System.out.println("The account has a balance of " + account.getBalance());

@@ -6,7 +6,7 @@ package com.atguigu.javase.bank;
 * */
 
 public class Account {
-    private double balance;
+    protected double balance;
 
 
     public Account(double init_balance) {

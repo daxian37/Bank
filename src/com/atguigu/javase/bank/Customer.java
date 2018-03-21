@@ -13,6 +13,8 @@ public class Customer {
     public Customer(String f, String l) {
         firstName = f;
         lastName = l;
+
+
     }
 
     // 声明两个公有存取器来访问该对象属性，方法 getFirstName 和 getLastName返回相应的属性。

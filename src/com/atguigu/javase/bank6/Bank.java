@@ -1,4 +1,4 @@
-package com.atguigu.javase.bank51;
+package com.atguigu.javase.bank6;
 
 /**
  * 提示:
@@ -13,7 +13,7 @@ package com.atguigu.javase.bank51;
 //创建 Bank 类
 public class Bank {
 
-    // b. 为 Bank 类 增 加 两 个 属 性 : customers(Customer对象的数组 )
+    // 为 Bank 类 增 加 两 个 属 性 : customers(Customer对象的数组 )
     // 和numberOfCustomers(整数，跟踪下一个 customers 数组索引)
 
     private Customer[] customers;
@@ -23,6 +23,11 @@ public class Bank {
     public Bank() {
         customers = new Customer[10];
 
+    }
+    private static Bank bank = new Bank();
+
+    public static Bank getBank(){
+        return bank;
     }
 
     // d. 添加 addCustomer 方法。该方法必须依照参数(姓，名)构造一个新的 Customer
@@ -48,5 +53,10 @@ public class Bank {
 
     public Customer getCustomer(int index) {
         return customers[index];
+    }
+
+   // 6-1. 修改 Bank 类，创建名为 getBanking 的公有静态方法，它返回一个 Bank类的实例。
+    public void getBanking(){
+
     }
 }
